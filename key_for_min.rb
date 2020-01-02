@@ -11,3 +11,4 @@ weights.each do |key, n|
     ass_key=key
   else
     if minimum>n
+      minimum=n

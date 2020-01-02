@@ -4,7 +4,7 @@
 weights={Jackson: 25, Bernie: 23, Jorgie: 6} 
 
 minimum=
-ass_key=""
+ass_key=
 def key_for_min_value(weights)
 weights.each do |key, n|
   if minimum.blank?

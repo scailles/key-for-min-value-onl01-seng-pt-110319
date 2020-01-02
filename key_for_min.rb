@@ -8,12 +8,10 @@ def key_for_min_value(weights)
 weights.each do |key, n|
   if minimum=NIL
     minimum=n
-    ass_key=key
   else
     n<=minimum
       minimum=n
-      ass_key=key
     end
 end
-  return ass_key
+  return key
 end

@@ -3,7 +3,8 @@
 
 weights={Jackson: 25, Bernie: 23, Jorgie: 6} 
 
-minimum=NIL
+minimum=nil
+ass_key=nil
 def key_for_min_value(weights)
 weights.each do |key, n|
   if minimum=NIL
@@ -11,7 +12,8 @@ weights.each do |key, n|
   else
     n<=minimum
       minimum=n
+      ass_key=key
     end
 end
-  return key
+  return ass_key
 end

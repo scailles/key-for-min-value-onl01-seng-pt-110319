@@ -1,6 +1,6 @@
 # prereqs: iterators, hashes, conditional logic
 # Given a hash with numeric values, return the key for the smallest value
 
-def key_for_min_value(name_hash)
+weights={Jackson: 25, Bernie: 23, Jorgie: 6} 
 
-end
+def key_for_min_value(weights)

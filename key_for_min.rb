@@ -10,7 +10,7 @@ weights.each do |key, n|
     minimum=n
     ass_key=key
   else
-     minimum>n
+     minimum>=n
       minimum=n
       ass_key=key
     end

@@ -3,6 +3,7 @@
 
 weights={Jackson: 25, Bernie: 23, Jorgie: 6} 
 
+minimum=
 def key_for_min_value(weights)
 weights.each do |key, n|
   

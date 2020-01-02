@@ -7,4 +7,5 @@ minimum=nil
 def key_for_min_value(weights)
 weights.each do |key, n|
   if minimum=nil 
-    minimum=key
+    minimum=n
+    key_for_min_value

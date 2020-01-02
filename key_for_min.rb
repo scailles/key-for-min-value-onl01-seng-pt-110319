@@ -15,5 +15,6 @@ weights.each do |key, n|
       ass_key=key
     end
   end
+end
   return ass_key
 end
